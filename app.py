@@ -68,7 +68,7 @@ def send_welcome(message):
 
 @bot.message_handler(func=lambda message: True)
 def decode_date(message):
-    text = message.text.strip()
+    text = message.text.strip().upper()
 
     if not text:
         bot.reply_to(message, "Сообщение пустое. Пример: AFN")
