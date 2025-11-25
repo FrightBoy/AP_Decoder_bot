@@ -1,5 +1,5 @@
-import telebot, TOKEN, os
-
+import telebot, os
+#import TOKEN
 # Замените на свой токен
 #BOT_TOKEN = TOKEN.NAME
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
